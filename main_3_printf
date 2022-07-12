@@ -98,11 +98,11 @@ The character \fI%\fR is followed by zero the following flags:
 .R A space in blank should be left before a positive number followed by a signed conversion.
 .SH NOTES.R A space in blank should be left before a positive number followed by a signed conversion.
 .SH NOTES
-.R The \fB_printf()\fR is a project collaboration between \Tolulope Fakunle\fR and \Bamidele Adefolaju\fR, actual students of Software Engineering at \fB Alx\fR.
+.R The \fB_printf()\fR is a project collaboration between \Lahat Mariel\fR and \Elizabeth\fR, actual students of Software Engineering at \fB ALX\fR.
 .SH BUGS
 .R In process
 .SH EXAMPLE
-.R To print the the string \fBHello Alx!\fR and its length in decimal.
+.R To print the the string \fBHello ALX SE!\fR and its length in decimal.
 
 #include ''main.h''
 
@@ -124,4 +124,4 @@ int main(void)
 .SH SEE ALSO
 .R printf(3)
 .SH AUTHORS
-Written by \QAASIM EMERAN\fR and \fB LABAN LANGAT \fR.
+Written by \Lahat Mariel\fR and \fB Elizabeth Wanjiru \fR.i
