@@ -1,1 +1,4 @@
-A print group project created by Elizabeth Wanjiru and Lahat Mariel
+Group project collaboration on printf.
+
+Authors
+Elizabeth Wanjiru and Lahat Mariel
