@@ -1,5 +1,5 @@
-#include <stdarg.h>
 #include "main.h"
+#include <stdarg.h>
 #include <stdio.h>
 /**
  * get_print - selects the right printing function

@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <unistd.h>
 /**
  * convert - converts number and base into string
  * @num: input number
@@ -24,4 +25,4 @@ char *convert(unsigned long int num, int base, int lowercase)
 	} while (num != 0);
 
 	return (ptr);
-}
+i}
