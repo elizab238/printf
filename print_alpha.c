@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdarg.h>
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * print_string - loops through a string and prints
  * every character

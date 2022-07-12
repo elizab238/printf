@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdarg.h>
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <unistd.h>
 /**
  * print_bigS - Non printable characters
  * (0 < ASCII value < 32 or >= 127) are

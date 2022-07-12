@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdarg.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * get_print - selects the right printing function
  * depending on the conversion specifier passed to _printf
