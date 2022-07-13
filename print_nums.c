@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdarg.h>
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * print_int - prints an integer
  * @l: va_list of arguments from _printf
