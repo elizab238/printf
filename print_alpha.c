@@ -4,41 +4,34 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- * Description: _putchar uses a local buffer of 1024 to call write
- * as little as possible
+ * print_string - loops through a string and prints
+ * every character
+ * @l: va_list arguments from _printf
+ * @f: pointer to the struct flags that determines
+ * if a flag is passed to _printf
+ * Return: number of char printed
  */
-int _putchar(char c)
+int print_string(va_list l, flags_t *f)
 {
-	static char buf[1024];
-	static int i;
+	char *s = va_arg(l, char *);
 
-	if (c == -1 || i >= 1024)
-	{
-		write(1, &buf, i);
-		i = 0;
-	}
-	if (c != -1)
-	{
-		buf[i] = c;
-		i++;
-	}
-	return (1);
+	(void)f;
+
+	if (!s)
+		s = "(null)";
+	return (_puts(s));
 }
 
 /**
- * _puts - prints a string to stdout
- * @str: pointer to the string to print
- * Return: number of chars written
+ * print_char - prints a character
+ * @l: va_list arguments from _printf
+ * @f: pointer to the struct flags that determines
+ * if a flag is passed to _printf
+ * Return: number of char printed
  */
-int _puts(char *str)
+int print_char(va_list l, flags_t *f)
 {
-	register int i;
-
-	for (i = 0; str[i] != '\0'; i++)
-		_putchar(str[i]);
-	return (i);
+	(void)f;
+	_putchar(va_arg(l, int));
+	return (1);
 }

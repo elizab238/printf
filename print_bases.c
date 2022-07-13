@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-
 /**
  * print_hex - prints a number in hexadecimal base,
  * in lowercase
